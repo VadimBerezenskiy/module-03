@@ -9,6 +9,43 @@ div {
   font-weight: 400;
 }
 
+.block {
+  padding: 70px 0 96px 0;
+}
+
+li {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+  color: #626262;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.life :hover {
+  color: #03a9f4;
+}
+
+.life {
+  padding: 0 117px 0 313px;
+}
+
+.photo {
+  padding-right: 99px;
+}
+
+.music {
+  padding-right: 91px;
+}
+
 .topic {
   display: inline-block;
 }
@@ -39,6 +76,7 @@ div {
   margin: 0 56px 54px 149px;
   width: 420px;
 }
+
 .sixth {
   margin-right: 152px;
   margin-bottom: 54px;
@@ -46,6 +84,8 @@ div {
 }
 
 .ubuntu {
+  margin-top: 30px;
+  margin-bottom: 0;
   color: #b4ad9e;
   font-family: "Ubuntu", sans-serif;
   font-size: 14px;
@@ -54,14 +94,17 @@ div {
 }
 
 h2 {
+  margin-top: 26px;
+  margin-bottom: 0;
   font-size: 30px;
   font-weight: 400;
 }
 
 .text {
+  margin-top: 32px;
+  margin-bottom: 0;
   font-size: 14px;
   line-height: 24px;
-  margin-bottom: 0;
 }
 
 button {
