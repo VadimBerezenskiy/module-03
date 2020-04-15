@@ -8,11 +8,13 @@ html {
   box-sizing: inherit;
 }
 
-div {
-  width: 1200px;
+.container {
+  width: 901px;
   font-family: "Playfair Display", serif;
   color: #626262;
   font-weight: 400;
+  margin: 0 auto;
+  font-size: 0;
 }
 
 img {
@@ -21,13 +23,15 @@ img {
   height: auto;
 }
 
-.box {
-  padding: 70px 0 96px 0;
+.nav {
+  margin-top: 70px;
+  margin-bottom: 96px;
 }
 
 ul {
   margin: 0;
   padding: 0;
+  list-style-type: none;
   text-align: center;
 }
 
@@ -39,6 +43,11 @@ a {
   text-transform: uppercase;
   text-decoration: none;
   color: #626262;
+  padding-right: 60px;
+}
+
+li:last-child {
+  padding-right: 0;
 }
 
 li :hover,
@@ -46,54 +55,26 @@ li :focus {
   color: #03a9f4;
 }
 
-.life {
-  padding-right: 117px;
-}
-
-.photo {
-  padding-right: 99px;
-}
-
-.music {
-  padding-right: 91px;
-}
-
-div.container {
+.box {
   margin: 0 auto;
-  width: 900px;
+  width: 901px;
   font-size: 0;
 }
 
-.topic {
+.section.topic {
   display: inline-block;
   width: 420px;
 }
-
-.first {
-  margin-right: 60px;
-  margin-bottom: 132px;
+.section.topic:not(:nth-last-child(-n + 2)) {
+  margin-bottom: 134px;
 }
 
-.second {
-  margin-bottom: 132px;
-}
-
-.third {
-  margin-right: 60px;
-  margin-bottom: 138px;
-}
-
-.fourth {
-  margin-bottom: 138px;
-}
-
-.fifth {
-  margin-right: 60px;
+.section.topic:nth-last-child(-n + 2) {
   margin-bottom: 52px;
 }
 
-.sixth {
-  margin-bottom: 52px;
+.section.topic:not(:nth-child(2n)) {
+  margin-right: 60px;
 }
 
 .ubuntu {
@@ -122,7 +103,7 @@ div.container {
 
 .button {
   display: inline-block;
-  margin: 0 529px 70px 507px;
+  margin: 0 379px 70px 357px;
   font-family: "Playfair Display", serif;
   color: #626262;
   font-weight: 400;
