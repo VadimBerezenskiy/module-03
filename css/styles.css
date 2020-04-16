@@ -23,37 +23,43 @@ img {
   height: auto;
 }
 
+/* HEADER */
+
 .nav {
   margin-top: 70px;
   margin-bottom: 96px;
 }
 
-ul {
+.nav-list {
   margin: 0;
   padding: 0;
   list-style-type: none;
   text-align: center;
 }
 
-li,
-a {
+.nav-list li {
+  padding-right: 60px;
   display: inline-block;
+}
+
+.nav-list a {
   font-size: 14px;
   line-height: 24px;
   text-transform: uppercase;
   text-decoration: none;
   color: #626262;
-  padding-right: 60px;
 }
 
-li:last-child {
+.nav-list li:last-child {
   padding-right: 0;
 }
 
-li :hover,
-li :focus {
+.nav-list li :hover,
+.nav-list li :focus {
   color: #03a9f4;
 }
+
+/* MAIN */
 
 .box {
   margin: 0 auto;
