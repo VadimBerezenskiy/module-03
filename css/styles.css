@@ -26,8 +26,8 @@ img {
 /* HEADER */
 
 .nav {
-  margin-top: 70px;
-  margin-bottom: 96px;
+  padding-top: 70px;
+  padding-bottom: 96px;
 }
 
 .nav-list {
@@ -38,7 +38,7 @@ img {
 }
 
 .nav-list li {
-  padding-right: 132px;
+  margin-right: 132px;
   display: inline-block;
 }
 
@@ -51,7 +51,7 @@ img {
 }
 
 .nav-list li:last-child {
-  padding-right: 0;
+  margin-right: 0;
 }
 
 .nav-list li :hover,
@@ -62,8 +62,7 @@ img {
 /* MAIN */
 
 .box {
-  margin: 0 auto;
-  width: 901px;
+  margin: 0;
   font-size: 0;
 }
 
@@ -108,8 +107,9 @@ img {
 }
 
 .button {
-  display: inline-block;
-  margin: 0 379px 70px 357px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 70px;
   font-family: "Playfair Display", serif;
   color: #626262;
   font-weight: 400;
@@ -119,4 +119,5 @@ img {
   width: 164px;
   height: 60px;
   background-color: transparent;
+  cursor: pointer;
 }
